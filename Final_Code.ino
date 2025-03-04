@@ -626,7 +626,7 @@ static const unsigned char PROGMEM slow_down[1024] = {
 
 void MoveForward(){
   right_speed = 150;
-  left_speed = 140;
+  left_speed = 145;
   ledcWrite(pwm_channel1, right_speed);   
   ledcWrite(pwm_channel2, left_speed);
   display.clearDisplay();
